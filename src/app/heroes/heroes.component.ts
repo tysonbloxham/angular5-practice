@@ -22,7 +22,9 @@ export class HeroesComponent implements OnInit {
     name: 'Windstorm'
   }
 
-  constructor() { }
+  constructor(private heroService: HeroService) {
+    
+  }
 
   ngOnInit() {
   }
