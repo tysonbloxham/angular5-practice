@@ -7,8 +7,8 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroService } from './hero.service';
-import { MessagesComponent } from './messages/messages.component';
 import { MessageService } from './message.service';
+import { MessagesComponent } from './messages/messages.component';
 
 
 @NgModule({
